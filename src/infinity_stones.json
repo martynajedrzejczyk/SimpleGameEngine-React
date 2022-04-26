@@ -1,0 +1,361 @@
+{"story": [
+    {
+        "id": "0", 
+        "text": "Jest rok 2018. Thanos wymazał pstryknięciem połowę ludzkości i stworzeń z całego wszechświata. Razem z drużyną Avengersów próbujecie ocalić wszechświat.",
+        "choice": [
+            {"nr":"1", "text":"Dalej", "next":"1"}
+        ]
+        
+    },
+    {
+        "id":"1",
+        "text": "Odnajdujecie kryjówkę Thanosa. Zbierasz wszystkich i biegniecie do przygotowanego już statku, który sterować będzie Rocket.", 
+        "choice": [
+            {"nr":"1", "text":"Lecimy!", "next":"2"}
+        ]
+    },
+    {
+        "id": "2", 
+        "text": "Jesteście na miejscu. Robiąc wielkie wejście dostajecie do chaty stojącej pośrodku łąk i gór zastając tam Thanosa. Cel jest tylko jeden - odebrać mu kamienie nieskończoności. ",
+        "choice": [
+            {"nr":"1", "text":"Złapcie Thanosa!", "next":"3"}
+        ],
+        "team": ["Thor", "Kapitan Ameryka", "Czarna Wdowa", "Nebula", "Rocket", "Ironman"]
+    },
+    {
+        "id": "3", 
+        "text": "Obezwładniacie Thanosa. W jego rękawicy nie znajdują się jednak kamienie. Thanos ukrył je gdzieś na tej planecie. Dobrze, że zjawiliście się tak szybko - nazajutrz planował je zniszczyć.",
+        "choice": [
+            {"nr":"1", "text": "Przywiąż Thanosa do ściany i poszukajcie kamienie", "next":"4" },
+            {"nr":"2", "text": "Zabijcie Thanosa i idźcie szukać kamienie", "next":"5" }
+        ]
+    },
+    {
+        "id": "4", 
+        "text": "Przywiązaliście Thanosa. Rozdzielacie się. Idziesz z Czarną Wdową, Kapitanem Ameryką i Thorem.",
+        "choice": [
+            {"nr":"1", "text":"Dalej", "next":"6"}
+        ],
+        "team": ["Thor", "Kapitan Ameryka", "Czarna Wdowa"]
+    },
+    {
+        "id": "5", 
+        "text": "Thor ucina Thanosowi głowę. Rozdzielacie się. Idziesz z Czarną Wdową, Kapitanem Ameryką i Thorem.",
+        "choice": [
+            {"nr":"1", "text":"Dalej", "next":"6"}
+        ],
+        "team": ["Thor", "Kapitan Ameryka", "Czarna Wdowa"]
+    },
+    {
+        "id": "6", 
+        "text": "Na początku przeszukasz z drużyną dom.",
+        "choice": [
+            {"nr":"1", "text": "Idźcie do skrytki", "next":"7" },
+            {"nr":"2", "text": "Idźcie do piwnicy", "next":"8" }
+        ]
+    },
+    {
+        "id": "7", 
+        "text": "Weszliście do skrytki. Widzicie pod stołem niebieskie światło. Kapitan Ameryka dobrze rozpoznaje ten kamień, to Kamień Przestrzeni. Chowacie go i wychodzicie na zewnątrz chatki. Spotykacie Ironmana z Nebulą, którzy znaleźli w piwnicy Kamień Umysłu.",
+        "choice": [
+            {"nr":"1", "text": "Idźcie do lasu", "next":"9" },
+            {"nr":"2", "text": "Idźcie w góry", "next":"10" },
+            {"nr":"3", "text": "Idźcie do doliny", "next":"11" }
+        ],
+        "kamien": ["niebieski", "zolty"]
+    },
+    {
+        "id": "8", 
+        "text": "Weszliście do piwnicy. Widzicie pod kocami żółte światło. Czarna Wdowa rozpoznaje ten kamień, to Kamień Umysłu. Chowacie go i wychodzicie na zewnątrz chatki. Spotykacie Ironmana z Nebulą, którzy znaleźli w skrytce Kamień Przestrzeni.",
+        "choice": [
+            {"nr":"1", "text": "Idźcie do lasu", "next":"9" },
+            {"nr":"2", "text": "Idźcie w góry", "next":"10" },
+            {"nr":"3", "text": "Idźcie do doliny", "next":"11" }
+        ],
+        "kamien": ["niebieski", "zolty"]
+    },
+    {
+        "id": "9", 
+        "text": "Poszliście do ciemnego lasu. Krążycie w nim z coraz mniejszym zapałem. Przeszukaliście już cały teren. Thor podemuje decyzję o zmianie lokalizacji poszukiwań.",
+        "choice": [
+            {"nr":"1", "text":"Idźcie w góry", "next":"10"},
+            {"nr":"2", "text":"Idźcie do doliny", "next":"11"}
+        ]
+    },
+    {
+        "id": "10", 
+        "text": "Poszliście w góry. Wyprawa jest ciężka i coraz dłuższa. Kapitan Ameryka podejmuje decyzję o zmianie miejsca poszukiwań",
+        "choice": [
+            {"nr":"1", "text":"Idźcie do doliny", "next":"11"}
+        ]
+    },
+    {
+        "id": "11", 
+        "text": "Jesteście w Dolinie. Jednak dzieje się coś dziwnego. Niektóre drzewa znikają i znów się pojawiają, zwierzęta biegają i uciekają, a ptaki krążą nad jednym drzewem. Podchodzicie do niego ostrożnie. Thor już wie, co się za nim kryje. \"Poczekajcie tu. Miałem już do czynienia z podobnym zjawiskiem\" - powiedział, i podbiegł do drzewa. Znalazł w nim czerwony kamień, Kamień Rzeczywistości. \" Ja go przechowam\" - rzekł i schował go do saszetki.",
+        "choice": [
+            {"nr":"1", "text":"Dalej", "next":"12"}
+        ],
+        "kamien": ["czerwony"]
+    },
+    {
+        "id": "12", 
+        "text": "Chodzicie w koło próbując znaleźć pozostałe dwa kamienie. \"Myślicie, że znajdziemy je wszystkie?\" - zapytałeś towarzyszy zmartwiony dłużącą się wyprawą. Odpowiedziała Ci Czarna Wdowa: \"Nie widzę innego wyjścia. Od nas zależy los połowy ludzkości. Od nas zależy to, czy zobaczymy jeszcze Wandę, Doktora Strange'a, Petera i innych. Musimy podejmować mądre decyzje co do poszukiwań, aby wierni słudzy Thanosa nie wyprzedzili nas w poszukiwaniach. Czuję, że powinniśmy pójść na wschód\".",
+        "choice": [
+            {"nr":"1", "text":"Idźcie na zachód", "next":"100"},
+            {"nr":"2", "text":"Idźcie do wschód", "next":"200"}
+        ],
+        "team": ["Thor", "Kapitan Ameryka", "Czarna Wdowa"]
+    },
+    {
+        "id": "100", 
+        "text": "Zdecydowałaś/eś, że lepiej będzie pójść na zachód. Po kilkudziesięciu minutach wędrówki Czarna Wdowa usłyszała jakiś dźwięk. W oddali zauważyliście wiele wrogich statków lądujących na planecie, na której jesteście. \"To Chitauri! Mówiłam, żeby iść na wschód. Szykujcie się do walki\" - rozkazała Czarna Wdowa szykując się do walki.",
+        "choice": [
+            {"nr":"1", "text":"Schowaj się za kamieniami", "next":"101"},
+            {"nr":"2", "text":"Stań gotów do walki", "next":"102"}
+        ]
+    },{
+        "id": "101", 
+        "text": "Biegniesz prędko i chowasz się za kamieniami po przeciwnej stronie drogi. Wrogowie lądują i biegną do was. Słyszysz, jak członkowie Twojej drużyny komentują ich ilość i próbują zachować dobrą minę do złej gry. \"Dlaczego nie poszliśmy na wschód?\" - pomyślałaś/eś. Nagle od tyłu chwyta Cię jeden z wrogów. Próbujesz uciec i po chwili walki lądujesz obok swojej drużyny.",
+        "choice": [
+            {"nr":"1", "text":"Walcz", "next":"103"}
+        ]
+    },{
+        "id": "102", 
+        "text": "Wyciągasz nowoczesną broń stworzoną przez Stark Industries i szykujesz się do walki. Gdy wrogowie nadbiegli, razem z drużyną zaczęliście walkę. Słyszysz, Thor z Czarną Wdową komentują ilość wrogów i próbują zachować dobrą minę do złej gry. \"Dlaczego nie poszliśmy na wschód?\" - pomyślałaś/eś.",
+        "choice": [
+            {"nr":"1", "text":"Walcz", "next":"103"}
+        ]
+    },{
+        "id": "103", 
+        "text": "Biegnie na Ciebie dwoje Chitauri. Umiejętnie używasz broni i pokonujesz ich obu. Nie poprzestajesz na nich i kontynuujesz walkę. Jednak słyszysz krzyk Thora. Odwracasz się i widzisz Steve'a leżącego na ziemi. \"To dzieci Thanosa\" - powiedziała oschło Natasha i pomściła Kapitana zabijając jego zabójcę. Musicie znaleźć pozostała trójkę. Jeśli tu są, wasze szanse na wyjście z tego cało maleją z każdą minutą walki.",
+        "choice": [
+            {"nr":"1", "text":"Oddziel się i pójdź szukać pozostałych dzieci Thanosa sam", "next":"104"},
+            {"nr":"2", "text":"Weź ze sobą Thora i pójdźcie wspólnie poszukać dzieci Thanosa", "next":"106"}
+        ],
+        "dead":"Kapitan Ameryka"
+    },{
+        "id": "104", 
+        "text": "Idziesz w stronę statków z nadzieją, że wrócisz żywy do członków Twojej drużyny. Przeszukujesz dokładnie wszystkie ich kabiny i skrytki, jednak nie znajdujesz wrogów. Po drodze zabijasz kilku Chitauri. Może są na polu walki?",
+        "choice": [
+            {"nr":"1", "text":"Wróć na pole bitwy", "next":"105"}
+        ]
+    },{
+        "id": "105", 
+        "text": "Wracasz do walki, jednak dotyka Cię dziwne uczucie. Straciliście już Kapitana Steve'a Rogersa. Nie możecie pozwolić sobie na więcej strat. Nie po tym wszystkim, co zrobił Wam Thanos. Kiedy dochodzisz już na miejsce, widzisz pusty wzrok Natashy, a pod nią dwie martwe postacie. Jedna z nich to Thor. \"Nie mogłam go uratować\" - powiedziała walcząc z wrogami. Czujesz, jak zbierają się w Tobie łzy. Czy jesteście skazani na porażkę? Czy Wasza misja ma szansę się jeszcze udać?",
+        "choice": [
+            {"nr":"1", "text":"Przyklęknij przy ciele Thora na chwilę i rusz dalej do walki", "next":"108"},
+            {"nr":"2", "text":"Wściekły na wrogów walcz dalej", "next":"108"}
+        ],
+        "dead":"Thor"
+    },{
+        "id": "106", 
+        "text": "Idziecie z Thorem w stronę statków z nadzieją, że przeżyjecie tą wyprawę. Przeszukujecie statki dokładnie i znajdujecie jednego Chitauri. Rzuca się on na Thora. Zanim zdążyłaś/eś zareagować na jego szybki ruch, widzisz Thora updadającego na ziemię w zwolnionym tempie. Nie pamiętasz, co się dzieje chwilę później. Ogarnął Cię chaos, rozpacz, wściekłość i chęć odwetu. Kiedy zyskujesz kontrolę nad sobą widzisz, że zabiłaś/eś zabójcę Thora. Zabierasz ciało Thora i przynosisz na pole bitwy, aby Natasha mogła sie z nim pożegnać.",
+        "choice": [
+            {"nr":"1", "text":"Zanieś ciało Thora na pole bitwy", "next":"107"}
+        ]
+    },{
+        "id": "107", 
+        "text": "Przynosisz ciało Thora i kładziesz je obok ciała Kapitana Ameryki. Po tym, jak Czarna Wdowa się z nim pożegnała, obiecujecie sobie, że już się nie rozdzielicie.",
+        "choice": [
+            {"nr":"1", "text":"Walczcie dalej", "next":"108"}
+        ]
+    },{
+        "id": "108", 
+        "text": "Walczycie z niekończącą się liczbą Chitauri. Niebezpiecznie zbliżacie się do klifu, otoczeni przez wrogów. Jesteście wyczerpani i zrozpaczeni. Nagle widzicie ostatnie dzieci Thanosa. Patrzycie na siebie porozumiewawczo i przystępujecie do największej bitwy tej wyprawy. ",
+        "choice": [
+            {"nr":"1", "text":"Walcz z całych sił", "next":"109"}
+        ]
+    },{
+        "id": "109", 
+        "text": "Patrzysz w lewo na Czarną Wdowę balansującą wokół krawędzi klifu. Nagle Chitauri zrobił o jeden krok za dużo - Natasha spadła. Podbiegłeś do krawędzi i zobaczyłeś ją, leżącą. Nie minęła nawet sekunda, a sam zostałeś popchnięty.",
+        "choice": [
+            {"nr":"1", "text":"KONIEC GRY", "next":"110"}
+        ],
+        "dead":"Czarna Wdowa"
+    },{
+        "id": "110", 
+        "text": "Wybrałaś/eś opcję prowadzącą do śmierci całej Twojej drużyny. Jednak dana Ci została druga szansa - możesz wrócić do wyboru i zadecydować zgodnie z sugestią Czarnej Wdowy lub zacząć od poczatku.",
+        "choice": [
+            {"nr":"1", "text":"Druga szansa", "next":"12"},
+            {"nr":"2", "text":"Koniec", "next":"2"}
+        ]
+    },{
+        "id": "200", 
+        "text": "Poszliście na wschód. Po jakimś czasie Thor usłyszał w oddali dźwięk i spojrzał za siebie. Zauważył wiele statków lądujących na planecie. Były one na szczęście tak daleko, że nie powinny Was namierzyć.  \"To Chitauri\" - powiedział, gdy wszyscy również się odwrócili. \"Dobrze, że nie poszliśmy na zachód\" - powiedziała Czarna Wdowa.",
+        "choice": [
+            {"nr":"1", "text":"Pojdźcie lasem, aby się dodatkowo schronić", "next":"201"}
+        ]
+    },{
+        "id": "201", 
+        "text": "Skręciliście do lasu. Czujecie zmęczenie. Możecie się rozdzielić lub kontynuować wyprawę w grupie. Thor proponuje dwa podziały: Ty z Kapitanem Ameryką i Thor z Czarną Wdową lub Ty z Thorem, a Czarna Wdowa z Kapitanem Ameryką. ",
+        "choice": [
+            {"nr":"1", "text":"Idź z Kapitanem", "next":"202"},
+            {"nr":"2", "text":"Idź z Thorem", "next":"210"}
+        ]
+    },{
+        "id": "202", 
+        "text": "Wybrałaś/eś pójście z Kapitanem Ameryką. Czas Was goni, więc wybieracie pójście wzdłuż rzeki. Co jakiś czas schodzicie też do małych jaskiń znajdujących się pod rzeką. Właśnie trafiliście na kolejną.",
+        "choice": [
+            {"nr":"1", "text":"Wejdźcie do jaskini", "next":"203"}
+        ]
+    },{
+        "id": "203", 
+        "text": "Jaskinia ta jest większa niż poprzednie, więc wierzycie, że znajdziecie tu kolejny kamień.",
+        "choice": [
+            {"nr":"1", "text":"Idźcie korytarzem wzdłuż jaskini", "next":"204"},
+            {"nr":"2", "text":"Zejdźcie w dół jaskini", "next":"208"}
+        ]
+    },{
+        "id": "204", 
+        "text": "Co jakiś czas trafiacie na większą dziurę w ścianie jaskini, która zawiera różne rzeczy - ostre kamienie, różne tkaniny, naczynia wykonane z drewna. Wygląda na to, że jaskinia ta ma swoich mieszkańców. Rozglądacie się uważnie z każdym krokiem. Nagle słyszycie dźwięk spadających kamieni. ",
+        "choice": [
+            {"nr":"1", "text":"Podejdźcie cicho do miejsca, z którego dobiegł dźwięk", "next":"205"}
+        ]
+    },{
+        "id": "205", 
+        "text": "Podchodzicie do kolejnego wgłebienia w ścianie, które można by uznać za pomieszczenie - jest ono wielkie i zawiera wiele przedmiotów. Zauważasz w nim jakieś stworzenie - prawdopodobnie mieszkaniec wyspy. Chcesz zwrócić uwagę Kapitana na tą osobę, jednak po odwróceniu się widzisz za sobą dwie kolejne istoty, które ogłuszają Cię kamieniem.",
+        "choice": [
+            {"nr":"1", "text":"Tracisz świadomość na czas nieokreślony", "next":"206"}
+        ]
+    },{
+        "id": "206", 
+        "text": "Budzisz się przywiązany do drzewa. Widzisz obok Kapitana, który właśnie uwolnił się z sznurków i niezauważanie próbuje sprawdzić teren. Jesteście sami, więc Kapitan Cię odwiązał.",
+        "choice": [
+            {"nr":"1", "text":"Przeszukajcie pomieszczenie", "next":"207"}
+        ]
+    },{
+        "id": "207", 
+        "text": "Przeszukując szafki zauważasz sejf. Szkoda, że nie macie Natashy, pomyślałaś/eś. Czujecie dziwną energię płynącą z sejfu. Próbujesz go otworzyć, jednak nie możesz zgadnąć hasła. Kapitan pomyślnie spróbował swoich sił chcąc otworzyc drzwiczki. Waszym oczom ukazał się fioletowy blask. To kamień Mocy. \"Zabieram kamień i wychodzimy stąd. \" - powiedział Kapitan i tak też zrobiliście.",
+        "choice": [
+            {"nr":"1", "text":"Wyjdźcie z jaskini i idźcie dalej wzdłuż rzeki.", "next":"209"}
+        ]
+    },{
+        "id": "208", 
+        "text": "Schodzicie w dół jaskini. Widzicie coraz mniej - Wasze źródło światła się kończy. Idziecie, aż natrafiacie na wejście do góry jaskini. Idziecie nim mając nadzieję, że tam znajdziecie kamień. Przed sobą widzicie długi, prosty korytarz.",
+        "choice": [
+            {"nr":"1", "text":"Idżcie naprzód", "next":"203"}
+        ]
+    },{
+        "id": "209", 
+        "text": "Idziecie wzdłuż rzeki i widzicie Thora z Natashą. \"Mamy kolejny kamień, a Wy?\" - spytałeś drużyny. \"Mamy kamień Czasu i kamień Duszy\" - powiedział Thor z zadowoloną miną. Macie już wszystkie kamienie. Możecie wracać do statku i na Ziemię.",
+        "choice": [
+            {"nr":"1", "text":"Pora wracać!", "next":"300"}
+        ]
+    },{
+        "id": "210", 
+        "text": "Idziesz z Thorem. Czas Was goni, więc wybieracie pójście wzdłuż rzeki. Co jakiś czas schodzicie też do małych jaskiń znajdujących się pod rzeką. Właśnie trafiliście na kolejną.",
+        "choice": [
+            {"nr":"1", "text":"Wejdźcie do jaskini", "next":"211"}
+        ]
+    },
+    
+    {
+        "id": "211", 
+        "text": "Jaskinia ta jest większa niż poprzednie, więc wierzycie, że znajdziecie tu kolejny kamień.",
+        "choice": [
+            {"nr":"1", "text":"Idźcie korytarzem wzdłuż jaskini", "next":"212"},
+            {"nr":"2", "text":"Zejdźcie w dół jaskini", "next":"216"}
+        ]
+    },{
+        "id": "212", 
+        "text": "Co jakiś czas trafiacie na większą dziurę w ścianie jaskini, która zawiera różne rzeczy - ostre kamienie, różne tkaniny, naczynia wykonane z drewna. Wygląda na to, że jaskinia ta ma swoich mieszkańców. Rozglądacie się uważnie z każdym krokiem. Nagle słyszycie dźwięk spadających kamieni. ",
+        "choice": [
+            {"nr":"1", "text":"Podejdźcie cicho do miejsca, z którego dobiegł dźwięk", "next":"213"}
+        ]
+    },{
+        "id": "213", 
+        "text": "Podchodzicie do kolejnego wgłebienia w ścianie, które można by uznać za pomieszczenie - jest ono wielkie i zawiera wiele przedmiotów. Zauważasz w nim jakieś stworzenie - prawdopodobnie mieszkaniec wyspy. Chcesz zwrócić uwagę Thora na tą osobę, jednak po odwróceniu się widzisz za sobą dwie kolejne istoty, które ogłuszają Cię kamieniem.",
+        "choice": [
+            {"nr":"1", "text":"Tracisz świadomość na czas nieokreślony", "next":"214"}
+        ]
+    },{
+        "id": "214", 
+        "text": "Budzisz się przywiązany do drzewa. Widzisz obok Thora, który właśnie uwolnił się z sznurków i niezauważanie próbuje sprawdzić teren. Jesteście sami, więc Thor Cię odwiązał.",
+        "choice": [
+            {"nr":"1", "text":"Przeszukajcie pomieszczenie", "next":"215"}
+        ]
+    },{
+        "id": "215", 
+        "text": "Przeszukując szafki zauważasz sejf. Szkoda, że nie macie Natashy, pomyślałaś/eś. Czujecie dziwną energię płynącą z sejfu. Próbujesz go otworzyć, jednak nie możesz zgadnąć hasła. Thor pomyślnie spróbował swoich sił chcąc otworzyc drzwiczki. Waszym oczom ukazał się fioletowy blask. To kamień Mocy. \"Zabieram kamień i wychodzimy stąd. \" - powiedział Thor i tak też zrobiliście.",
+        "choice": [
+            {"nr":"1", "text":"Wyjdźcie z jaskini i idźcie dalej wzdłuż rzeki.", "next":"217"}
+        ],
+        "kamien": ["fioletowy"]
+    },{
+        "id": "216", 
+        "text": "Schodzicie w dół jaskini. Widzicie coraz mniej - Wasze źródło światła się kończy. Idziecie, aż natrafiacie na wejście do góry jaskini. Idziecie nim mając nadzieję, że tam znajdziecie kamień. Przed sobą widzicie długi, prosty korytarz.",
+        "choice": [
+            {"nr":"1", "text":"Idżcie naprzód", "next":"212"}
+        ]
+    },{
+        "id": "217", 
+        "text": "Idziecie wzdłuż rzeki i widzicie Natashę z Kapitanem. \"Mamy kolejny kamień, a Wy?\" - spytałeś drużyny. \"Mamy kamień Czasu i kamień Duszy\" - powiedział Kapitan z zadowoloną miną. Macie już wszystkie kamienie. Możecie wracać do statku i na Ziemię.",
+        "choice": [
+            {"nr":"1", "text":"Pora wracać!", "next":"300"}
+        ],
+        "kamien": ["zielony", "pomaranczowy"]
+    }
+    ,{
+        "id": "300", 
+        "text": "Idziecie do statku chowając się w lesie. pamiętacie o wrogach znajdujących się w oddali. Wsiadacie do statku i ruszacie na Ziemię.",
+        "choice": [
+            {"nr":"1", "text":"ZWYCIĘSTWO!", "next":"301"}
+        ]
+    },{
+        "id": "301", 
+        "text": "GRATULACJE! Znaleźliście wszystkie Kamienie i uratowaliście cały Wszechświat!",
+        "choice": [
+            {"nr":"1", "text":"Zacznij od początku", "next":"2"}
+        ]
+    }
+],
+"characters":
+[
+    {
+        "name": "Thor Odinson",
+        "nick": "Thor",
+        "img": "thor.jpg",
+        "state": ""
+    },
+    {   
+        "name": "Steve Rogers",
+        "nick": "Kapitan Ameryka",
+        "img": "kapitan.png",
+        "state": ""
+    },
+    {
+        "name": "Natasha Romanoff",
+        "nick": "Czarna Wdowa",
+        "img": "natasha.png",
+        "state": ""
+    },
+    {
+        "name": "Rocket Raccoon",
+        "nick": "Rocket",
+        "img": "rocket.png",
+        "state": ""
+    },
+    {
+        "name": "Nebula",
+        "nick": "Nebula",
+        "img": "nebula.png",
+        "state": ""
+    },
+    {
+        "name": "Tony Stark",
+        "nick": "Ironman",
+        "img": "ironman.png",
+        "state": ""
+    }
+
+], 
+"stones":
+[
+    {"color":"Przestrzeni", "img":"niebieski.png", "id":"niebieski"},
+    {"color":"Umysłu", "img":"zolty.png", "id":"zolty"},
+    {"color":"Rzeczywistosci", "img":"czerwony.png", "id":"czerwony"},
+    {"color":"Mocy", "img":"fioletowy.png","id":"fioletowy"},
+    {"color":"Czasu", "img":"zielony.png","id":"zielony"},
+    {"color":"Duszy", "img":"pomaranczowy.png","id":"pomaranczowy"}
+]
+}
