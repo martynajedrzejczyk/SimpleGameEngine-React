@@ -1,0 +1,31 @@
+.card > img {
+    /* width: 80px; */
+    padding: 2px;
+    height: 150px;
+}
+
+.card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    border-radius: 5px;
+    height: 270px;
+    box-shadow: 0 0 2em red;
+    /* text-align: center; */
+    /* box-shadow: -5px -5px 20px 5px darkblue, 5px 5px 20px 5px red, -5px -5px 20px 5px red; */
+    /* box-shadow: 10px 10px 10px 10px red; */
+}
+
+.card > div > p{
+    height: 7px;
+    font-size: 14px;
+    /* padding: 2px; */
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
