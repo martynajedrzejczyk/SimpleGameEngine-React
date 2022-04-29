@@ -1,0 +1,25 @@
+.stones {
+    
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.stones-main {
+    /* background-color:rgb(203, 202, 200); */
+    width: 20%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.stones-main > p {
+    text-align: center;
+    height: 10%;
+    background-color: rgba(152, 30, 30, 0.5);
+    color: black;
+}

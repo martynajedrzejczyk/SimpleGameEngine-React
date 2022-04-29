@@ -1,0 +1,35 @@
+.people{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    gap: 32px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    overflow: auto;
+    padding: 20px;
+}
+
+.people-main {
+    /* background-color:rgb(203, 202, 200); */
+    height: 100vh;
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.people-main p {
+    text-align: center;
+}
+
+.textHeader {
+    background-color: rgb(73, 65, 223);
+    height: 35px;
+    text-decoration: dotted;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
